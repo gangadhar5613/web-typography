@@ -1,0 +1,363 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0 | 20110126
+    License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*==========================
+
+Custom Styles
+
+==========================*/
+body{
+    font-family: 'Karla', sans-serif;
+    box-sizing: border-box;
+
+}
+
+
+.heading{
+    font-family: 'DM Serif Display', serif;
+
+}
+
+
+/*=====================
+
+Header Part
+
+======================*/
+
+.header{
+    display: flex;
+  
+  
+  width: 100%;
+  align-items: baseline;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  color: #2D2640;
+  
+}
+
+
+.logo{
+    margin-right: auto;
+    margin-left: 5%;
+    font-size: 40px;
+    font-weight: 500;
+    
+}
+.list-items{
+    display: flex;
+
+  
+}
+.main-nav{
+    margin-right: 5%;
+}
+.list-items li{
+  display: flex;
+  justify-content: space-between;
+  padding:15px 20px 15px 20px;
+  
+  
+}
+.list-items a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #6E6B74;
+    
+}
+.btn-cls{
+    border: 1px solid #6E6B74;
+    border-radius: 5px;
+    
+}
+
+
+/*===============================
+
+main Part
+
+================================*/
+
+/*==============Banner part=============*/
+
+.banner{
+    display: flex;
+   
+    background-color: #2D2640;
+    height: 75vh;
+    
+}
+.col{
+    margin-top: 2%;
+    flex-basis: 500px;
+    margin-left: 5%;
+    color: white;
+
+   
+}
+.col-2{
+    position: absolute;
+    right: 5%;
+}
+.col p{
+    font-size: 18px;
+    padding: 15px 0 30px 0;
+    line-height: 1.5em;
+    color: #D4D4D4;
+}
+
+.bnr-hd{
+    font-size: 60px;
+    padding-bottom: 30px;
+    font-weight: 600;
+}
+
+.line{
+    width: 140px;
+    height: 1px;
+    background-color: white;
+    margin: 50px 0 50px 0;
+}
+.button{
+    text-decoration: none;
+    color:white ;
+    padding: 15px 25px 15px 25px;
+    border: 1px solid white;
+    border-radius: 3px;
+    display: inline-block;
+    
+}
+
+/*=========Article Part===========*/
+
+.article{
+    display: flex;
+
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+   
+}
+.column-1{
+    flex: 1;
+}
+.column-2{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+   margin-left: 5%;
+    justify-content: center;
+}
+.hd-1{
+    font-size: 50px;
+    color: #01122D;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+.column-2 p{
+    font-size: 18px;
+    color: #6E6B74;
+    padding: 20px 0 20px 0;
+    line-height: 1.5em;
+  
+}
+.column-2 a{
+    text-decoration: none;
+    color: #6E6B74;
+    border: 1px solid #6E6B74;
+  padding: 15px 25px 15px 25px;
+  font-size: 20px;
+  border-radius: 3px;
+  
+}
+.button-2{
+    padding-top: 30px;
+}
+/*=============Article 2================*/
+.article-2{
+    margin: 5%;
+}
+
+.line-2{
+  background-color: gray;
+}
+.row{
+    display: flex;
+    margin-top: 3%;
+}
+.col-l{
+    flex: 1;
+
+}
+.article-2 h2{
+    font-size: 50px;
+    font-weight: 500;
+    color: #01122D;
+}
+.col-l i{
+    width: 30px ;
+    height: 30px;
+   
+    background-color: #8AB4F0;
+    color: white;
+  padding: 10px;
+    border-radius: 27px;
+    font-size: 20px;
+    align-items: center;
+}
+.col-l h3{
+    padding: 30px 0 30px 0;
+    font-size: 25px;
+    color: #01122D;
+}
+.col-l p{
+    color:gray
+}
+
+/*==========Section-1 Part============*/
+
+.section-1{
+    display: flex;
+    margin: 5%;
+    background-color: #2D2640;
+    height: 250px;
+align-items: center;
+}
+
+
+.col-sec2{
+    margin-left: auto;
+    margin-right: 3%;
+}
+.col-sec{
+    margin-left: 3%;
+    flex-basis: 350px
+}
+.section-1 .heading{
+    font-size: 40px;
+    line-height: 1.5em;
+    color: white;
+    font-weight: 500;
+}
+.sec-btn{
+    padding: 15px 30px 15px 30px;
+    border: 1px solid white;
+    border-radius: 5%;
+}
+.sec-btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+   
+}
+
+/*============Section-2 Part ===========*/
+
+.section-2{
+    display: flex;
+    margin: 5% 5% 0% 5%;
+    border-bottom: 1px solid black;
+}
+.sec-icons{
+    margin-left: auto;
+    display: flex;
+    padding: 20px;
+    
+    
+    
+}
+.fb-icon,.twt-icon{
+   font-size: 30px;
+    background-color: #6A6970;
+    color: white;
+   padding:5px 7px 5px 7px;
+    margin-right: 50px;
+    flex-basis: 200px;
+    border-radius:10px;
+    
+}
+.sec-head{
+    font-size: 30px;
+    
+}
+
+/*===========bottom nav==============*/
+
+
+.nav-bar{
+    display: flex;
+    justify-content: center;
+}
+.list-items{
+    display: flex;
+}
+.list-items a{
+text-transform: none;
+}
+
+/*=============Footer Part===============*/
+
+footer{
+    background-color: #2D2640;
+    text-align: center;
+    font-size: 20px;
+    color: #9398AB;
+    padding: 30px;
+}
